@@ -1,0 +1,114 @@
+\documentclass[margin,line]{res}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[unicode=true,
+            colorlinks=true,
+            linkcolor=blue]{hyperref}
+\hypersetup{urlcolor=BlueViolet} % Does not apply color to href's
+\hypersetup{colorlinks,urlcolor=BlueViolet} % href's are correct, but navigation
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\begin{document}
+\newcommand{\link}[1]{\texttt{#1}}
+\providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+\name{Gil Forsyth\vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+%=========INFO=========
+\begin{tabular}{@{}p{2in}p{4in}}
+{\it E-mail:}  gil@forsyth.dev
+\end{tabular}
+
+
+%========= RESEARCH =========
+\section{\sc Summary}
+
+
+%========= WORK EXPERIENCE ==========
+\section{\sc Professional Experience}
+
+%\vspace{-.3cm}
+{\bf Capital One } \\
+{\em Senior Manager, Machine Learning Engineer } \hfill {\bf 2021 - Present}\\
+{\em Manager, Software Engineer } \hfill {\bf 2019 - 2021}\\
+{\em Principal Associate, Data Scientist } \hfill {\bf 2017 - 2019}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Drive adoption of Dask across enterprise
+\item[] Build and maintain internal machine learning libraries for enterprise
+\item[] Serve as enterprise-wide intent lead for Python
+\item[] Subject matter expert for the SciPy stack and distributed computing
+\item[] Contribute to open source projects (Dask, scikit-learn, XGBoost)
+\end{list1}
+
+%========= EDUCATION ==========
+\section{\sc Education}
+{\bf George Washington University}, Washington, DC\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Performed three years of studies in computational fluid dynamics in pursuit of PhD before exiting program
+\end{list1}
+
+{\bf Boston University}, Boston, MA\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] M.S., Mechanical Engineering \hfill {\bf May 2014}
+\end{list1}
+
+{\bf Oberlin College}, Oberlin, OH\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] B.A., History, East Asian Studies, Religion \hfill {\bf May 2006}
+\end{list1}
+
+%=========== Software ================
+\section{\sc Software}
+
+\input{software.tex}
+
+
+%============ Service =================
+\section{\sc Conference Presentations and Service}
+
+{\bf Scientific Computing with Python (SciPy) Conference}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Program Chair \hfill {\bf 2017 - 2020}
+\end{list1}
+
+\input{service.tex}
+
+%========= PUBLICATIONS ==========
+\section{\sc Publications}
+
+\input{publications.tex}
+
+
+%=========== Footer ================
+\end{resume}
+\end{document}
+
