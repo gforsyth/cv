@@ -9,6 +9,6 @@ Japanese language specialist -> administrative assistant -> mechanical engineer 
 computational fluid dynamicist -> data scientist -> software engineer -> 
 machine learning engineer -> software engineer.
 Gil contributes to several projects in the PyData ecosystem and is a core maintainer 
-of xonsh and helps maintain Ibis. He served as the program chair for the 
+of xonsh and Ibis. He served as the program chair for the 
 Scientific Computing with Python (SciPy) conference from 2016 to 2020.
 
