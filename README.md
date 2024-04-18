@@ -12,3 +12,8 @@ Gil contributes to several projects in the PyData ecosystem and is a core mainta
 of xonsh and Ibis. He served as the program chair for the 
 Scientific Computing with Python (SciPy) conference from 2017 to 2020.
 
+# Build
+
+Run `nix-shell -p tectonic pandoc cmake` for a build environment
+
+`make && open gforsyth-cv.pdf`
