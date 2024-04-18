@@ -1,8 +1,5 @@
-I work on and with many libraries within the PyData / SciPy ecosystem.
+Scientific software developer with a background in high-performance computing
+and computational performance. Software engineer, data scientist, open source
+maintainer and contributor, fond of numerical linear algebra.
 
-My technical background is in distributed and parallel computing and I apply
-that skill set to data science and machine learning.
-
-I wear a lot of hats and have been involved in every step of model development
-from initial data exploration to design and implementation of model training and
-serving platforms.
+I spend most of my time working on Ibis (https://ibis-project.org/)
