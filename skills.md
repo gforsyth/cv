@@ -1,5 +1,2 @@
-* Programming Languages
-  * Python, Cython
-* Areas of Practice
-  * Machine learning, distributed systems, performance and optimization, packaging, version lifecycle management
+Python, SQL, Substrait, machine learning, distributed systems, performance and optimization, packaging, version lifecycle management
 
