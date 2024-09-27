@@ -1,6 +1,6 @@
 \textbf {Voltron Data}
 
-- Senior Staff Software Engineer \hfill \textbf {2024 - Present}
+- Senior Staff Software Engineer \hfill \textbf {2024 - }
 - Staff Software Engineer \hfill \textbf {2021 - 2024}
 
 \textbf {Capital One}

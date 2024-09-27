@@ -1,6 +1,6 @@
 \textbf{Scientific Computing with Python (SciPy) Conference}
 
-- Program Chair \hfill \textbf{2017 - 2020}
+- Program Chair \hfill \textbf{2017 - 2020, 2025 - }
 
 \textbf{Tutorials}
 
